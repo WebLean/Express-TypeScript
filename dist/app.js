@@ -1,5 +1,5 @@
 "use strict";
-var age;
+let age;
 age = 30;
 console.log(age);
 // Alternative node.js with TypeScript :: Not Recommended by Maximilian
