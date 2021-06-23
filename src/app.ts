@@ -1,8 +1,5 @@
-let age: number;
+import express from 'express';
 
-age = 30;
+const app = express();
 
-console.log(age);
-
-// Alternative node.js with TypeScript :: Not Recommended by Maximilian
-// https://github.com/TypeStrong/ts-node
+app.listen(3000);
